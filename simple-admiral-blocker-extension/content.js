@@ -11,7 +11,6 @@
     const buttons = document.querySelectorAll("button, a");
     for (const button of buttons) {
       const buttonText = button.textContent.trim().toLowerCase();
-      console.log("Simple Admiral Blocker: Checking button with text:", buttonText);
       if (buttonTexts.includes(buttonText)) {
         console.log("Simple Admiral Blocker: Found button with text:", buttonText);
         clickButton(button);
