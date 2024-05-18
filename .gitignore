@@ -1,0 +1,21 @@
+# Ignore build output
+/build/
+
+# Ignore dependencies
+/node_modules/
+
+# Ignore user-specific settings
+/.vscode/
+
+# Ignore Chrome extension files
+/*.crx
+/*.pem
+/*.zip
+
+# Ignore Chrome extension build artifacts
+/*.js.map
+/*.css.map
+/*.html.map
+
+# Ignore Chrome extension manifest key file
+/*.key

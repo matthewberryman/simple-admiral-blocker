@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Admiral Blocker",
+  "version": "0.1",
+  "description": "Automatically clicks 'Continue without supporting us' buttons",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
