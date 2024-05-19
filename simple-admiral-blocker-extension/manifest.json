@@ -1,8 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Simple Admiral Blocker",
-  "version": "0.1",
-  "description": "Automatically clicks 'Continue without supporting us' buttons",
+  "version": "0.2",
+  "icons": {
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "description": "Automatically clicks 'Continue without supporting us' etc. buttons",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

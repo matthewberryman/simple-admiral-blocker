@@ -19,3 +19,6 @@
 
 # Ignore Chrome extension manifest key file
 /*.key
+
+# Ignore macOS system files
+.DS_Store
